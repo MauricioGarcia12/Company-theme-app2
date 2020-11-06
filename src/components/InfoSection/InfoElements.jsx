@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const InfoContainer = styled.div`
     color:white;
-    background-color:${({lightbg}) =>(lightbg ?'#f9f9f9' :'#010606')};
+    background-color:${({lightBg}) =>(lightBg ?'#f9f9f9' :'#010606')};
     @media screen and(max-width:768px){
         padding:100px 0;
     }
@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
 export const TopLine = styled.p`
 
 color:#01bf71;
-font-size:16px;
+font-size:26px;
 line-height:16px;
 font-weight:700;
 letter-spacing:1.4px;
@@ -66,7 +66,7 @@ margin-bottom:24px;
 font-size:48px;
 line-height:1.1;
 font-weight:600;
-color:${({lightext})=>(lightext ? '#f78fa':'#010606')};
+color:${({lightText})=>(lightText ? '#f78fa':'#010606')};
 
 @media screen and (max-width:480px){
     font-size:32px;
@@ -76,9 +76,9 @@ color:${({lightext})=>(lightext ? '#f78fa':'#010606')};
 export const SubTitle = styled.p`
 max-width:440px;
 margin-bottom:35px;
-font-size:18px;
-line-height:24px;
-color:${({darktext})=>(darktext ? '#010606':'#fff')};
+font-size:45px;
+line-height:45px;
+color:${({darkText})=>(darkText ? '#010606':'#fff')};
 `;
 
 

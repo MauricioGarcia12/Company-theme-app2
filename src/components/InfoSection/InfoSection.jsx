@@ -6,29 +6,40 @@ BtnWrap,Column1
 ,InfoContainer,InfoRow,InfoWrapper,SubTitle
 ,TextWrapper,TopLine
 } from './InfoElements';
+import {Button} from '../ButtonElement'
 
-import {Button} from 'react-scroll'
-const InfoSection = () => {
+const InfoSection = ({lightBg,id,img,topLine,lightText,
+heading,darkText,description,buttonLabel,alt,imgStart,primary,dark,dark2}) => {
     return (
         <>
-            <InfoContainer >
+            <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper>
-                    <InfoRow>
+                    <InfoRow imgStart={imgStart}>
 
                         <Column1>
                             <TextWrapper>
-                                <TopLine>Top Line</TopLine>
-                                <Heading>Heading</Heading>
-                                <SubTitle>Subtitle</SubTitle>
+                                <TopLine>{topLine}</TopLine>
+                                <Heading lightText={lightText}>{heading}</Heading>
+                                <SubTitle darkText={darkText}>{description}</SubTitle>
                                 <BtnWrap>
-                                    <Button to="home"/>
+                                    <Button 
+                                    to="home"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exacts={true}
+                                    offset={-80}
+                                    primary={primary ? 1 : 0}
+                                    dark={dark ? 1 :0}
+                                    dark2={dark2 ? 1 : 0}
+                                    >{buttonLabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
 
                         <Column2>
                             <ImgWrap>
-                                <Img/>
+                                <Img src={img} alt={alt}/>
                             </ImgWrap>
                         </Column2>
 
