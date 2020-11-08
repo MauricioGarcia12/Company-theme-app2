@@ -8,7 +8,12 @@ import {
     SocialMedia,SocialMediaWrap,
     WebsiteRights
 } from './FooterElements'
-import {FaFacebook,FaInstagram,FaLinkedin,FaTwitter,FaYoutube} from 'react-icons/fa'
+import {
+    FaFacebook,
+    FaInstagram,
+    FaLinkedin,
+    FaTwitter,
+    FaYoutube} from 'react-icons/fa'
 const Footer = () => {
     return (
         <FooterContainer>
