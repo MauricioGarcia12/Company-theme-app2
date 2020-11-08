@@ -62,7 +62,7 @@ text-decoration:none;
 margin-bottom:0.5rem;
 font-size:14px;
 &:hover{
-    color:#01bf71;
+    color:#18608C;
     transition:0.3s ease-out;
 }
 `;

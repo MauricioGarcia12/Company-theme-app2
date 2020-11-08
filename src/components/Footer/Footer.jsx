@@ -33,41 +33,38 @@ const Footer = () => {
                                 <FooterLink to ='/signin'>How it works</FooterLink>
                                 <FooterLink to ='/signin'>Careers</FooterLink>
                                 <FooterLink to ='/signin'>Investors</FooterLink>
-                                <FooterLink to ='/sig'>Terms of services</FooterLink>
+                                <FooterLink to ='/sigin'>Terms of services</FooterLink>
                             </FooterLinkItems>
                         <FooterLinkItems>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to ='/signin'>How it works</FooterLink>
-                                <FooterLink to ='/signin'>Careers</FooterLink>
-                                <FooterLink to ='/signin'>Investors</FooterLink>
-                                <FooterLink to ='/sig'>Terms of services</FooterLink>
+                                <FooterLinkTitle>Technologies</FooterLinkTitle>
+                                <FooterLink to ='/signin'>Cloud</FooterLink>
+                                <FooterLink to ='/signin'>Web Design</FooterLink>
+                                <FooterLink to ='/signin'>Software Implementation</FooterLink>
+                                <FooterLink to ='/signin'>Servers Maintenance</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to ='/signin'>How it works</FooterLink>
-                                <FooterLink to ='/signin'>Careers</FooterLink>
-                                <FooterLink to ='/signin'>Investors</FooterLink>
-                                <FooterLink to ='/signin'>Terms of services</FooterLink>
+                                <FooterLinkTitle>Prices</FooterLinkTitle>
+                                <FooterLink to ='/signin'>Marketing</FooterLink>
+                                <FooterLink to ='/signin'>Projects</FooterLink>
+                                <FooterLink to ='/signin'>Courses</FooterLink>
+                                <FooterLink to ='/signin'>Finacial Development</FooterLink>
                             </FooterLinkItems>
                         <FooterLinkItems>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to ='/signin'>How it works</FooterLink>
-                                <FooterLink to ='/signin'>Careers</FooterLink>
-                                <FooterLink to ='/signin'>Investors</FooterLink>
-                                <FooterLink to ='/sigin'>Terms of services</FooterLink>
+                                <FooterLinkTitle>Glassview Offices</FooterLinkTitle>
+                                <FooterLink to ='/signin'>Ney York</FooterLink>
+                                <FooterLink to ='/signin'>Mexico City</FooterLink>
+                                <FooterLink to ='/signin'>Quebec</FooterLink>
+                                <FooterLink to ='/sigin'>San Francisco</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to ="/" onClick={toggleHome}>Logo</SocialLogo>
-                        <WebsiteRights>
-                        Logo &copy { new Date().getFullYear()}
-                        All rights reserved
-                        </WebsiteRights>
+                        <SocialLogo to ="/" onClick={toggleHome}>Glassview</SocialLogo>
+                        <WebsiteRights>Glassview © { new Date().getFullYear() } All rights reserved</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href ="/" target="_blank" arial-label="Facebook">
                                 <FaFacebook/>

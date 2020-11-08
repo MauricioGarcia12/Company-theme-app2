@@ -5,7 +5,7 @@ import {Link as LinkS} from 'react-scroll';
 
 
 export const Nav= styled.div`
-    background-color:${({scrollNav})=>(scrollNav ? '#000':'#000')};
+    background-color:${({scrollNav})=>(scrollNav ? '#141211':'#141211')};
     height:80px;
     display:flex;
     justify-content:center;
@@ -82,7 +82,7 @@ height:100%;
 cursor: pointer;
 
 &.active{
-    border-bottom:3px solid #01bf71;
+    border-bottom:3px solid #18608C;
 }
 `;
 
@@ -97,10 +97,10 @@ align-items:center;
 
 export const NavBtnLink=styled(LinkR)`
 border-radius:50px;
-background-color:#01bf71;
+background-color:#18608C;
 white-space:nowrap;
 padding:10px 22px;
-color:#010606;
+color:#141211;
 font-size:16px;
 outline:none;
 border:none;
@@ -111,7 +111,7 @@ text-decoration:none;
 &:hover{
     transition:all 0.2 ease-in-out;
     background-color:#fff;
-    color:#010606;
+    color:#141211;
 }
 
 `;

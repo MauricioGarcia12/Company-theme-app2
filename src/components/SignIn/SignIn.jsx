@@ -6,7 +6,7 @@ const SignIn = () => {
     return (
         <Container>
             <FormWrap>
-                <Icon to="/">Logo</Icon>
+                <Icon to="/">Glassview</Icon>
                 <FormContent>
                     <Form action="#">
                         <FormH1>Sign in to your account</FormH1>

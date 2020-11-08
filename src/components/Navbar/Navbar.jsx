@@ -28,7 +28,7 @@ function Navbar({toggle}) {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>Logo</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>Glassview</NavLogo>
 
                     <MobileIcon onClick={toggle}>
                         <FaBars/>

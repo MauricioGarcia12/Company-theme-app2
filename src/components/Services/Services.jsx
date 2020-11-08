@@ -15,20 +15,20 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon1}>
                     </ServicesIcon>
-                    <ServicesH2>Reduce Expensives</ServicesH2>
-                    <ServicesP>We help reduce your fess and increase your revenue</ServicesP>
+                    <ServicesH2>Web Development</ServicesH2>
+                    <ServicesP>We create your next big professional project for your company</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}>
                     </ServicesIcon>
-                    <ServicesH2>Virtual Oficces</ServicesH2>
+                    <ServicesH2>Cost Reduction</ServicesH2>
                     <ServicesP>We help reduce your fess and increase your revenue</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}>
                     </ServicesIcon>
-                    <ServicesH2>Premium Benefits</ServicesH2>
-                    <ServicesP>We help reduce your fess and increase your revenue</ServicesP>
+                    <ServicesH2>Professional Care</ServicesH2>
+                    <ServicesP>We take care of your systems with powerful and secure clusters</ServicesP>
                 </ServicesCard>
 
             </ServicesWrapper>
