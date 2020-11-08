@@ -1,10 +1,12 @@
 import React from 'react'
-
+import ScrollToTop from '../components/ScrollToTop'
+import SignIn from '../components/SignIn/SignIn'
 const Signin = () => {
     return (
-        <div>
-            Sign In
-        </div>
+        <>
+            <ScrollToTop/>
+            <SignIn/>
+        </>
     )
 }
 
