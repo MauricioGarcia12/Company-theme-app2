@@ -3,15 +3,16 @@ import styled from "styled-components"
 export const InfoContainer = styled.div`
     color:white;
     background-color:${({lightBg}) =>(lightBg ?'#fff' :'#141211')};
+
     @media screen and(max-width:768px){
-        padding:100px 0;
+        padding:80px 0;
     }
 `;
 
 export const InfoWrapper = styled.div`
 display:grid;
 z-index: 1;
-height:860px;
+height:500px;
 width:100%;
 max-width:1100px;
 margin-right:auto;
@@ -28,6 +29,10 @@ grid-template-areas:${({imgStart}) =>(imgStart ? `'col2 col1'`:`'col1 col2'`)};
 
 @media screen and (max-width:768px){
     grid-template-areas: ${({imgStart})=>(imgStart ?`'col1 col2'`:`'col2 col1' 'col2 col2'`)};
+}
+@media screen and(max-width:250px){
+    display:flex;
+    
 }
 `;
 
@@ -52,33 +57,47 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
 
-color:#18608C;
-font-size:26px;
-line-height:16px;
-font-weight:700;
-letter-spacing:1.4px;
-text-transform:uppercase;
-margin-bottom:16px;
+    color:#18608C;
+    font-size:29px;
+    line-height:16px;
+    font-weight:700;
+    letter-spacing:1.4px;
+    text-transform:uppercase;
+    margin-bottom:16px;
+
+    @media screen and (max-width:880px){
+        font-size:22px;
+        letter-spacing:1;
+        line-height:22px;
+    }
+
+
 `;
 
 export const Heading = styled.h1`
-margin-bottom:24px;
-font-size:48px;
-line-height:1.1;
-font-weight:600;
-color:${({lightText})=>(lightText ? '#18608C':'#141211')};
+    margin-bottom:24px;
+    font-size:48px;
+    line-height:1.1;
+    font-weight:600;
+    color:${({lightText})=>(lightText ? '#18608C':'#141211')};
 
-@media screen and (max-width:480px){
-    font-size:32px;
-}
+    @media screen and (max-width:480px){
+        font-size:22px;
+    }
+
 `;
 
 export const SubTitle = styled.p`
-max-width:440px;
-margin-bottom:35px;
-font-size:45px;
-line-height:50px;
-color:${({darkText})=>(darkText ? '#141211':'#fff')};
+    max-width:440px;
+    margin-bottom:35px;
+    font-size:45px;
+    line-height:50px;
+    color:${({darkText})=>(darkText ? '#141211':'#fff')};
+
+    @media screen and (min-width:250px){
+        font-size:25px;
+        line-height:25px;
+    }
 `;
 
 

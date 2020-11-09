@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
-import  { HeroBg,HeroContainer,ImgBg,ArrowForward,ArrowRight,HeroContent
+import  { HeroBg,HeroContainer,VideoBg,ArrowForward,ArrowRight,HeroContent
 ,HeroH1,HeroP,HeroWrapper} from './HeroElements';
 import {Button} from '../ButtonElement'
+import Video from '../../videos/video.mp4'
 const HeroSection = () => {
     const [hover,setHover]=useState(false)
 
@@ -11,7 +12,7 @@ const HeroSection = () => {
     return (
         <HeroContainer id="home">
             <HeroBg>
-                <ImgBg src="../../images/bg.jpg"  alt="background Image"/>
+                <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
                 <HeroH1>System Development</HeroH1>

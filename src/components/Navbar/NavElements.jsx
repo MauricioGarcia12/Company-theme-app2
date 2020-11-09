@@ -6,7 +6,7 @@ import {Link as LinkS} from 'react-scroll';
 
 export const Nav= styled.div`
     background-color:${({scrollNav})=>(scrollNav ? '#141211':'#141211')};
-    height:80px;
+    height:65px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -26,7 +26,7 @@ export const NavbarContainer= styled.div`
     height:80px;
     z-index:1;
     width:100%;
-    padding:0 24px;
+    padding:0 20px;
     max-width:1100px;
 `;
 
@@ -37,7 +37,7 @@ cursor:pointer;
 font-size:1.5rem;
 display:flex;
 align-items:center;
-margin-left:24px;
+margin-left:5px;
 font-weight:bold;
 text-decoration:none;
 `;
@@ -51,7 +51,7 @@ display:none;
     top: 0;
     right: 0;
     transform:translate(-100%,60%);
-    font-size:1.8rem;
+    font-size:1.5rem;
     cursor: pointer;
     color:white;
 }
@@ -62,7 +62,7 @@ export const NavMenu = styled.ul`
     align-items:center;
     list-style:none;
     text-align:center;
-    margin-right:-22px;
+    margin-right:20px;
     @media screen and (max-width:760px){
         display:none;
     }
@@ -80,7 +80,7 @@ text-decoration:none;
 padding:0 1rem;
 height:100%;
 cursor: pointer;
-
+font-size: .8rem;
 &.active{
     border-bottom:3px solid #18608C;
 }
@@ -99,9 +99,9 @@ export const NavBtnLink=styled(LinkR)`
 border-radius:50px;
 background-color:#18608C;
 white-space:nowrap;
-padding:10px 22px;
+padding:10px 18px;
 color:#141211;
-font-size:16px;
+font-size:0.8rem;
 outline:none;
 border:none;
 cursor: pointer;

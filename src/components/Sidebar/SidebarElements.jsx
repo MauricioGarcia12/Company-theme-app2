@@ -40,14 +40,14 @@ export const SidebarLink = styled(LinkS)`
     display:flex;
     align-items:center;
     justify-content: center;
-    font-size:1.5rem;
+    font-size:1rem;
     text-decoration:none;
     list-style:none;
     transition:0.2s ease-in-out;
     text-decoration:none;
     color:white;
     cursor: pointer;
-
+    margin-top:0.6rem;
     &:hover{
         color:#18608C;
         transition:0.2s ease-in-out;
