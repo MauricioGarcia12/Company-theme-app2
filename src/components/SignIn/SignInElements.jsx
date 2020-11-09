@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const Container =styled.div`
-    max-height:100%;
+    height:100%;
     position: fixed;
     bottom: 0;
     left:0;
@@ -13,9 +13,6 @@ export const Container =styled.div`
     background: rgb(26,33,41);
     background: linear-gradient(90deg, rgba(26,33,41,1) 9%, rgba(24,96,140,1) 47%, rgba(55,122,163,1) 100%);
 
-@media screen and (max-width:250px){
-    width: 100%;
-}
 `;
 
 export const FormWrap = styled.div`
@@ -33,17 +30,13 @@ margin-top:10px;
 text-decoration:none;
 color:white;
 font-weight:bold;
-font-size:1.5rem;
+font-size:1.2rem;
 
 @media screen and(max-width:480px){
     margin-left:16px;
     margin-top:8px;
 }
-@media screen and(max-width:320px){
-    margin-left:30px;
-    margin-top:8px;
-    margin-right:20px;
-}
+
 `;
 
 export const FormContent = styled.div`
@@ -71,10 +64,6 @@ export const Form = styled.form`
 
     @media screen and(max-width:400px){
         padding:32px 32px;
-    }
-    @media screen and(min-width:280px){
-        width: 250px;
-        margin:10px;
     }
 `;
 
